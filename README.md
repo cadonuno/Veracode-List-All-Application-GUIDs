@@ -29,8 +29,14 @@ appropriate file protections in place.
     py list-application-guids.py [-d]
         -d will add debug information to the console output, making it easier to troubleshoot
 
-The plugin will print all applications in the following format:
-&ltApplication 1 name&gt | &ltApplication 1 GUID&gt
-&ltApplication 2 name&gt | &ltApplication 2 GUID&gt
-...
-&ltApplication x name&gt | &ltApplication x GUID&gt
+### The plugin will print all applications in the following format:
+    <Application 1 name> | <Application 1 GUID>  
+    <Application 2 name> | <Application 2 GUID>  
+    ...   
+    <Application n name> | <Application n GUID>
+
+## License
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+See the [LICENSE](LICENSE) file for details
